@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage One</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Slack Name -->
+    <h1 data-testid="slackUserName">Ogechukwu Ibe</h1>
+
+    <!-- Slack Display Picture -->
+    <div class="img-container">
+      <img src="./carley.jpg" alt="carley" data-testid="slackDisplayImage" />
+    </div>
+
+    <!-- Current Day of the Week -->
+    <p>
+      Current Day of the week: <span data-testid="currentDayOfTheWeek"></span>
+    </p>
+
+    <!-- Current UTC Time -->
+    <p>UTC Time in milliseconds: <span data-testid="currentUTCTime"></span></p>
+
+    <!-- Track -->
+    <p class="track">Track: <span data-testid="myTrack">Frontend</span></p>
+
+    <!-- GitHub URL -->
+    <div class="git-repo">
+      <a
+        href="https://github.com/Ogechukwu-Ibe/Stage-One-Zuri-HNG.git"
+        data-testid="githubURL"
+        >GitHub Repository</a
+      >
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

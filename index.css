@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  background: rgb(3, 3, 16);
+  color: #f12f25;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.img-container {
+  width: 20rem;
+  object-fit: cover;
+  border: 10px solid rgba(255, 0, 0, 0.485);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+span {
+  color: bisque;
+}
+
+p {
+  margin: 0.5rem 0;
+  margin-left: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+  /* letter-spacing: 1rem; */
+  cursor: pointer;
+
+  background: bisque;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 230px) {
+  a {
+    letter-spacing: 0.06rem;
+  }
+}
+@media screen and (min-width: 460px) {
+  a {
+    letter-spacing: 0.8rem;
+  }
+}
+@media screen and (min-width: 678px) {
+  .git-repo {
+    /* position: relative; */
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+  a {
+    letter-spacing: 1.2rem;
+  }
+
+  p {
+    text-align: center;
+    letter-spacing: 0.3rem;
+  }
+}
